@@ -12,6 +12,7 @@ namespace SimpleMath.Test
     public class GitTesting1Test
     {
         [TestCase]
+
         public void AddTest()
         {
             SimpleMath.MathsHelper helper = new SimpleMath.MathsHelper();
