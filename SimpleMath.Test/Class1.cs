@@ -26,5 +26,6 @@ namespace SimpleMath.Test
             int result = helper.Subtract(20, 10);
             Assert.AreEqual(10, result);
         }
+
     }
 }
