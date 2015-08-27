@@ -1,0 +1,7 @@
+language: csharp
+solution: SimpleMath.sln
+install:
+  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+script:
+  - xbuild /p:Configuration=Release SimpleMath/SimpleMath.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./SimpleMath/SimpleMath.Test/bin/Release/SimpleMath.Test.dll
