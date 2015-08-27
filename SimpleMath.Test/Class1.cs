@@ -19,7 +19,6 @@ namespace SimpleMath.Test
             Assert.AreEqual(30, result);
         }
         [TestCase]
-
         public void SubtractTest()
         {
             SimpleMath.MathsHelper helper = new SimpleMath.MathsHelper();
